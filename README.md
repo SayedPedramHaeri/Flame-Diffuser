@@ -8,7 +8,7 @@ A comprehensive repository accompanying the paper **_FLAME Diffuser: Wildfire Im
 
 FLAME Diffuser is a training-free, diffusion-based framework for synthesizing realistic wildfire images with paired ground truth masks. It introduces a novel mask-guided diffusion process that integrates Perlin noise and augmented flame masks to precisely control the placement and realism of generated fire elements while preserving the original scene’s style. Built upon Stable Diffusion and CLIP-based evaluation, FLAME Diffuser achieves high image fidelity, semantic alignment, and controllable flame generation — making it a powerful tool for data augmentation and wildfire detection research. The framework produces diverse, high-quality wildfire imagery suitable for advancing computer vision models in environmental monitoring, safety, and ecological analysis.
 
-## Quick Tutorial
+## ⚙️ Quick Tutorial
 1. First, please download stable-diffusion-v1-5 model file from: [https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt) and place it into the `FLAME_SD\models\ldm\stable-diffusion-v1\` folder. <br>
 
 2. Run `Flame_diffuser_perlin_mask.py` as a demo to show the proposed 'perlin_mask' method from the paper.
@@ -18,21 +18,21 @@ Run `dataset_eval.py` to produce the results of FID, CLIP Score, and CLIP Confid
 
 We will update more details later according to the request. Please contact us anytime if you have questions.
 
-## Sample Dataset
+## 🧩 Sample Dataset
 
 <img src="./Figure/grid.jpg" width=100%>
 
 ---
 
 
-## Key Features
+## 📌 Key Features
 
 - **Training-Free Diffusion Framework:** Generates wildfire images without the need for model training or fine-tuning.
 - **Precise Flame Control:** Utilizes noise-based masks for accurate flame placement.
 - **Diverse Backgrounds:** Creates images with varied and realistic backgrounds, enhancing model generalizability.
 - **High-Quality Dataset:** Introduces FLAME-SD with 10,000 synthesized images for robust model training.
 
-## Methodology
+## 🧠 Methodology
 
 <img src="./Figure/diffuser_2.jpg" width=90%>
 
@@ -45,7 +45,7 @@ We will update more details later according to the request. Please contact us an
    - The denoising U-Net refines these variables to produce realistic images guided by text prompts.
 
 
-## Experimental Results
+## 📊 Experimens
 
 <img src="./Figure/fid.jpg" width=90%>
 
@@ -57,7 +57,7 @@ We will update more details later according to the request. Please contact us an
 
 ---
 
-## 🧑‍💻 Author
+## 👥 Author
 
 **Sayed Pedram Haeri Boroujeni**  
 PhD Student, Clemson University  
@@ -67,7 +67,7 @@ Email: sayedpedramhaeri@gmail.com
 # 📄 Acknowledgments
 This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration. <br>
 
-# Citation 
+# 📚 Citation 
 <a href="https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826040">FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion</a>
 
 ```
