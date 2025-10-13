@@ -57,9 +57,6 @@ We will update more details later according to the request. Please contact us an
 
 <img src="./Figure/table.jpg" width=70%>
 
-For more details, visit the [Project Page](https://arazi2.github.io/aisends.github.io/project/flame).
-
-
 ---
 # Contact
 
@@ -78,7 +75,7 @@ This project is supported by the National Science Foundation under Grant Number 
 
 ```
 @INPROCEEDINGS {10826040,
-author = { Wang, Hao and Haeri Boroujeni, Sayed Pedram and Chen, Xiwen and Bastola, Ashish and Li, Huayu and Zhu, Wenhui and Razi, Abolfazl },
+author = { Wang, Hao and Haeri Boroujeni, Sayed Pedram and Chen, Xiwen and Li, Huayu and Zhu, Wenhui and Razi, Abolfazl},
 booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
 title = {{ FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion }},
 year = {2024},
