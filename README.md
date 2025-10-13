@@ -1,12 +1,12 @@
 
-# FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
+# 🔥 FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
 
-News: This paper is accepted by the [IEEE BigData 2024](https://www3.cs.stonybrook.edu/~ieeebigdata2024/)
+A comprehensive repository accompanying the paper **_FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion_ (2024)**, published in the IEEE BigData Conference. This repository provides code, datasets, and analyses supporting our large-scale review of wildfire and smoke imagery resources. It includes the full pipeline for mask-guided wildfire generation, Perlin-noise-based mask augmentation, and quantitative evaluation using FID, CLIP Score, and CLIP Confidence. The repository also provides sample datasets, evaluation scripts, and ready-to-run demos for generating and benchmarking high-quality wildfire imagery.  
 
 
-## Introduction
+## 🔍 Overview
 
-Wildfires have devastating impacts on natural environments and human settlements. Existing fire detection systems rely on large, annotated datasets that often lack geographic diversity, leading to decreased generalizability. To address this, we introduce the **FLAME Diffuser**, a diffusion-based framework that synthesizes high-quality wildfire images with precise flame location control. This training-free framework eliminates the need for model fine-tuning, enhancing the development of robust wildfire detection models.
+FLAME Diffuser is a training-free, diffusion-based framework for synthesizing realistic wildfire images with paired ground truth masks. It introduces a novel mask-guided diffusion process that integrates Perlin noise and augmented flame masks to precisely control the placement and realism of generated fire elements while preserving the original scene’s style. Built upon Stable Diffusion and CLIP-based evaluation, FLAME Diffuser achieves high image fidelity, semantic alignment, and controllable flame generation — making it a powerful tool for data augmentation and wildfire detection research. The framework produces diverse, high-quality wildfire imagery suitable for advancing computer vision models in environmental monitoring, safety, and ecological analysis.
 
 ## Quick Tutorial
 1. First, please download stable-diffusion-v1-5 model file from: [https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt) and place it into the `FLAME_SD\models\ldm\stable-diffusion-v1\` folder. <br>
@@ -63,14 +63,8 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 ---
 # Contact
 
-**Contribution:** <br>
-[AIS-Clemson](https://github.com/AIS-Clemson) <br>
-[xiwenc1](https://github.com/xiwenc1) <br>
-[abastola0](https://github.com/abastola0) <br>
-[HuayuLiArizona](https://github.com/HuayuLiArizona) <br>
-[ChongQingNoSubway](https://github.com/ChongQingNoSubway) <br>
 
-**Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Ashish Bastola, Huayu Li, Wenhui Zhu, and Abolfazl Razi
+**Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Huayu Li, Wenhui Zhu, and Abolfazl Razi
 
 **Affiliations:** Clemson University, The University of Arizona, Arizona State University
 
@@ -78,8 +72,6 @@ For more details, visit the [Project Page](https://arazi2.github.io/aisends.gith
 
 # Acknowledgments
 This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration. <br>
-
-Special thanks to Dr. [Siyu Huang](https://siyuhuang.github.io/) for his comments on experiment designs. 
 
 # Citation 
 <a href="https://doi.ieeecomputersociety.org/10.1109/BigData62323.2024.10826040">FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion</a>
