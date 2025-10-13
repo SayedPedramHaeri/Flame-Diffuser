@@ -72,8 +72,8 @@ This project is supported by the National Science Foundation under Grant Number 
 
 ```
 @INPROCEEDINGS {10826040,
-author = { Wang, Hao and Haeri Boroujeni, Sayed Pedram and Chen, Xiwen and Li, Huayu and Zhu, Wenhui and Razi, Abolfazl},
-booktitle = { 2024 IEEE International Conference on Big Data (BigData) },
+author = {Wang, Hao and Haeri Boroujeni, Sayed Pedram and Chen, Xiwen and Li, Huayu and Zhu, Wenhui and Razi, Abolfazl},
+booktitle = {2024 IEEE International Conference on Big Data (BigData) },
 title = {{ FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion }},
 year = {2024},
 volume = {},
