@@ -56,16 +56,15 @@ We will update more details later according to the request. Please contact us an
 <img src="./Figure/table.jpg" width=70%>
 
 ---
-# Contact
+
+## 🧑‍💻 Author
+
+**Sayed Pedram Haeri Boroujeni**  
+PhD Student, Clemson University  
+Email: sayedpedramhaeri@gmail.com
 
 
-**Authors:** Hao Wang, Sayed Pedram Haeri Boroujeni, Xiwen Chen, Huayu Li, Wenhui Zhu, and Abolfazl Razi
-
-**Affiliations:** Clemson University, The University of Arizona, Arizona State University
-
-**Corresponding Author:** Abolfazl Razi (Email: <arazi@clemson.edu>)
-
-# Acknowledgments
+# 📄 Acknowledgments
 This project is supported by the National Science Foundation under Grant Number CNS-2204445. Special thanks to USDA Forest Service and Kaibab National Forest administration. <br>
 
 # Citation 
