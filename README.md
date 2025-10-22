@@ -1,7 +1,7 @@
 
 # 🔥 FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion
 
-A comprehensive repository accompanying the paper [**_FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion_ (2024)**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10826040), published in the IEEE BigData Conference. This repository provides code, datasets, and analyses supporting our large-scale review of wildfire and smoke imagery resources. It includes the full pipeline for mask-guided wildfire generation, Perlin-noise-based mask augmentation, and quantitative evaluation using FID, CLIP Score, and CLIP Confidence. The repository also provides sample datasets, evaluation scripts, and ready-to-run demos for generating and benchmarking high-quality wildfire imagery.  
+A comprehensive repository accompanying the paper [**_FLAME Diffuser: Wildfire Image Synthesis using Mask Guided Diffusion_ (2024)**](https://ieeexplore.ieee.org/document/10826040), published in the IEEE BigData Conference. This repository provides code, datasets, and analyses supporting our large-scale review of wildfire and smoke imagery resources. It includes the full pipeline for mask-guided wildfire generation, Perlin-noise-based mask augmentation, and quantitative evaluation using FID, CLIP Score, and CLIP Confidence. The repository also provides sample datasets, evaluation scripts, and ready-to-run demos for generating and benchmarking high-quality wildfire imagery.  
 
 ## 🔍 Overview
 
